@@ -1,0 +1,519 @@
+.section_1 {
+    background-image: 
+    linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    url(../img/img_kuzov.png);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    color: rgba(225,225,225,0.5);
+}
+
+.my_logo {
+    font-family: 'Lato', sans-serif;
+    color: rgba(225,225,225,0.2);
+    font-size: 30px;
+}
+
+.my_tel a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: rgba(225,225,225,0.5);
+    text-decoration: none;
+}
+
+.zvonok {
+    line-height: 0.5;
+}
+
+.my_a {
+    color: rgba(225,225,225,0.5);
+}
+
+.my_a:hover,
+.my_a:focus {
+    color: red;
+}
+
+.top {
+    margin-top: 150px;
+    line-height: 0.5;
+}
+.top-min {
+    font-size: 28px;
+}
+
+.conditions {
+    background-color: rgba(225,225,225,0.0);
+}
+
+.conditions img {
+    object-fit: contain;
+    width: 70px;
+    height: 70px;    
+}
+
+.my_span_class,
+.my_span_class:hover,
+.my_span_class:focus {
+    font-size: 16px;
+    color: rgb(225,225,225);
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+
+
+
+.section_2 {
+    min-height: 500px;
+    background-color: #fff;
+}
+
+.icons {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-height: 400px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.icons img {
+    object-fit: contain;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+.section_3 {
+    min-height: 500px;
+    background-color: #dcd9d9;
+    padding-top: 100px;
+}
+
+.my_form {
+    border-top: #fff solid 4px;
+    border-bottom: #fff solid 4px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+.form-group {
+    background-color: #dcd9d9;
+}
+
+.details {
+    resize: none;
+    max-height: calc(100-1rem-2px);
+}
+
+#telefon {
+    padding: 6px 12px;
+}
+
+#telefon::-webkit-input-placeholder {color:#050505;}
+#telefon::-moz-placeholder          {color:#050505;}/* Firefox 19+ */
+#telefon:-moz-placeholder           {color:#050505;}/* Firefox 18- */
+#telefon:-ms-input-placeholder      {color:#050505;}
+
+#email {
+    padding: 6px 12px;
+}
+
+.button_a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.button_a:hover,
+.button_a:focus 
+{
+    text-decoration: none;
+    color: #FFF;
+}  
+
+
+
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.6); /* цвет фона */
+    z-index: 1050;
+    opacity: 0; 
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+
+.modalDialog:target {
+    opacity: 1; /* делаем окно видимым */
+	pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+
+.modalDialog > div {
+    max-width: 360px;
+    margin: 10% auto;
+    padding: 30px 30px;
+    position: relative;
+    color: black;
+    line-height: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close {
+    /* background: #606061; */
+    color: #fff;
+    line-height: 25px;
+    position: absolute;
+    right: -30px;
+    text-align: center;
+    top: -5px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+.section_4 {
+    min-height: 500px;
+    background-color: #fff;
+}
+
+/* .first-line, .second-line, .third-line {
+    min-height: 80px;
+} */
+
+.car {
+    min-height: 80px;
+}
+
+.audi {
+    background: url(../img/auto_black/audi.png) no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.audi:hover {
+    background: url(../img/auto/audi.png) no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+.mers {
+    background: url(../img/auto_black/mers.png) no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.mers:hover {
+    background: url(../img/auto/Mercedes-Benz-logo1.png) no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+.bmw {
+    background: url(../img/auto_black/bmw.png) no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.bmw:hover {
+    background: url(../img/auto/bmw.png) no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+.volc {
+    background: url(../img/auto_black/wolks.png) no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.volc:hover {
+    background: url(../img/auto/Volkswagen-Logo-AutoWolrd-2012-blogspot-com.png) no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+.jag {
+    background: url(../img/auto_black/jag.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.jag:hover {
+    background: url(../img/auto/jaguar-logo.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+
+}
+
+.volvo {
+    background: url(../img/auto_black/volvo.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.volvo:hover {
+    background: url(../img/auto/Volvo_Logo.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+.mini {
+    background: url(../img/auto_black/mini.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.mini:hover {
+    background: url(../img/auto/mini_logo.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+.land {
+    background: url(../img/auto_black/land.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.land:hover {
+    background: url(../img/auto/logo-land-rover.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+.honda {
+    background: url(../img/auto_black/honda.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.honda:hover {
+    background: url(../img/auto/honda.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+.jeep {
+    background: url(../img/auto_black/jeep.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.jeep:hover {
+    background: url(../img/auto/logo-jeep.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+.bentley {
+    background: url(../img/auto_black/bently.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.bentley:hover {
+    background: url(../img/auto/bentley-11.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+
+.porshe {
+    background: url(../img/auto_black/porshe.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.porshe:hover {
+    background: url(../img/auto/Porsche_logo.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+.mazda {
+    background: url(../img/auto_black/mazda.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+}
+
+.mazda:hover {
+    background: url(../img/auto/Mazda_Logo.png)  no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+
+
+.section_5 {
+    min-height: 500px;
+    background-color: #ebebeb;
+}
+
+.klient {
+    min-height: 125px;
+    max-height: 300px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.avatar {
+    float: left;
+    min-width: 90px;
+    min-height: 90px;
+    background: url(../img/klient.png) no-repeat;
+    background-size: cover;
+    background-position: 60% 50%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.my_text {
+    padding-left: 105px;
+    font-size: 13px;
+}
+
+span {
+    font-size: 12px;
+    color: #757575;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.section_6 {
+    min-height: 500px;
+    background-color: #dbdbdb;
+}
+
+.form-group_2 {
+    border: 3px solid #fff;
+}
+
+.label {
+    float: left;
+    width: 46%;
+    margin: 0 2%;
+    padding-bottom: 30px;
+}
+
+.zakaz_button {
+    margin: 0 auto;
+    
+}
+
+.section_7 {
+    min-height: 500px;
+    background: url(../img/map.png) no-repeat;
+    background-size: cover;
+    background-position: 50% 70%;
+}
+
+.red_sqear {
+    padding: 40px 0;
+    background-color: red;
+}
+
+.red_sqear_text {
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.mail a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.my_tel_3 a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section_8 {
+    min-height: 20px;
+    background-color: #fff;
+}
+
+.my_logo_2 {
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;
+    font-size: 30px;
+}
+
+.my_tel_2 a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+}
+.my_a_2 {
+    color: black;
+}
+
+.my_a_2:hover,
+.my_a_2:focus {
+    color: red;
+}
