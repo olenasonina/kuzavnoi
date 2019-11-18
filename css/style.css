@@ -517,3 +517,5 @@ span {
 .my_a_2:focus {
     color: red;
 }
+
+/* browser-sync start --server --files "*.html, **/*.html, *.js, */*.js, *.css, */*css" */
